@@ -9,7 +9,7 @@ import (
 )
 
 func Repl() {
-	fmt.Printf("JSRuntime %s", VERSION)
+	fmt.Printf("JSRuntime %s \n", VERSION)
 	fmt.Println("exit using ctrl-c or exit()")
 
 	for true {

@@ -2,6 +2,6 @@ package lib
 
 import "fmt"
 
-func printVersion() {
+func PrintVersion() {
 	fmt.Printf("JSRuntime: %s\n", VERSION)
 }
